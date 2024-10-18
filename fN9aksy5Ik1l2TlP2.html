@@ -1,0 +1,235 @@
+<html><head><base href="https://hackerstudy.org/">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HackerStudy - Learn Ethical Hacking and Cybersecurity</title>
+<style>
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0a0a0a;
+    color: #33ff33;
+    line-height: 1.6;
+  }
+  header {
+    background-color: #1a1a1a;
+    padding: 1rem;
+    text-align: center;
+  }
+  nav {
+    background-color: #262626;
+    padding: 0.5rem;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+    margin: 0 1rem;
+  }
+  nav ul li a {
+    color: #33ff33;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  nav ul li a:hover {
+    color: #ffffff;
+  }
+  main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  h1, h2, h3 {
+    margin-bottom: 1rem;
+  }
+  .hero {
+    text-align: center;
+    padding: 3rem 0;
+  }
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  .cta-button {
+    display: inline-block;
+    background-color: #33ff33;
+    color: #0a0a0a;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  .cta-button:hover {
+    background-color: #ffffff;
+    transform: translateY(-3px);
+  }
+  .features {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+  }
+  .feature {
+    flex-basis: calc(33.333% - 2rem);
+    background-color: #1a1a1a;
+    padding: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(51, 255, 51, 0.2);
+  }
+  .feature h3 {
+    color: #ffffff;
+  }
+  .feature-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+  }
+  .testimonials {
+    margin-top: 3rem;
+  }
+  .testimonial {
+    background-color: #1a1a1a;
+    padding: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+  }
+  .testimonial-content {
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+  .testimonial-author {
+    text-align: right;
+    color: #ffffff;
+  }
+  @media (max-width: 768px) {
+    .features {
+      flex-direction: column;
+    }
+    .feature {
+      flex-basis: 100%;
+    }
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>HackerStudy</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/courses">Courses</a></li>
+      <li><a href="/labs">Labs</a></li>
+      <li><a href="/tools">Tools</a></li>
+      <li><a href="/forum">Forum</a></li>
+      <li><a href="/about">About</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section class="hero">
+      <h1>Master Ethical Hacking and Cybersecurity</h1>
+      <p>Join our community of ethical hackers and cybersecurity experts. Learn, practice, and excel in the art of digital defense.</p>
+      <a href="/courses" class="cta-button">Explore Courses</a>
+    </section>
+    
+    <section class="features">
+      <div class="feature">
+        <div class="feature-icon">🎓</div>
+        <h3>Expert-Led Courses</h3>
+        <p>Learn from industry professionals with years of experience in ethical hacking and cybersecurity.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">💻</div>
+        <h3>Hands-On Labs</h3>
+        <p>Practice your skills in our state-of-the-art virtual lab environments, designed to simulate real-world scenarios.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🛠️</div>
+        <h3>Cutting-Edge Tools</h3>
+        <p>Get access to the latest cybersecurity tools and learn how to use them effectively in your ethical hacking journey.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🤝</div>
+        <h3>Community Support</h3>
+        <p>Connect with fellow learners, share knowledge, and collaborate on projects in our active community forum.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">📈</div>
+        <h3>Career Advancement</h3>
+        <p>Gain the skills and certifications needed to excel in the rapidly growing field of cybersecurity.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🔒</div>
+        <h3>Ethical Practices</h3>
+        <p>Learn the importance of ethical hacking and how to use your skills responsibly to protect and secure digital assets.</p>
+      </div>
+    </section>
+    
+    <section class="testimonials">
+      <h2>What Our Students Say</h2>
+      <div class="testimonial">
+        <p class="testimonial-content">"HackerStudy has been an incredible resource for my cybersecurity journey. The courses are comprehensive, and the labs provide real-world experience that's invaluable in the field."</p>
+        <p class="testimonial-author">- Sarah J., Security Analyst</p>
+      </div>
+      <div class="testimonial">
+        <p class="testimonial-content">"I started as a complete beginner, and now I'm working as an ethical hacker. The community support and expert guidance at HackerStudy made all the difference in my career transition."</p>
+        <p class="testimonial-author">- Mike T., Ethical Hacker</p>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 HackerStudy. All rights reserved. | <a href="/privacy">Privacy Policy</a> | <a href="/terms">Terms of Service</a></p>
+  </footer>
+
+  <script>
+    // Add a simple animation to the CTA button
+    const ctaButton = document.querySelector('.cta-button');
+    ctaButton.addEventListener('mouseover', () => {
+      ctaButton.style.transform = 'translateY(-5px) scale(1.05)';
+    });
+    ctaButton.addEventListener('mouseout', () => {
+      ctaButton.style.transform = 'translateY(0) scale(1)';
+    });
+
+    // Add a typing effect to the hero title
+    const heroTitle = document.querySelector('.hero h1');
+    const originalText = heroTitle.textContent;
+    heroTitle.textContent = '';
+    let i = 0;
+
+    function typeWriter() {
+      if (i < originalText.length) {
+        heroTitle.textContent += originalText.charAt(i);
+        i++;
+        setTimeout(typeWriter, 50);
+      }
+    }
+
+    // Start the typing effect when the page loads
+    window.onload = typeWriter;
+  </script>
+</body>
+</html>
